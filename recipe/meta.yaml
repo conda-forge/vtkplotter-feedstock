@@ -1,5 +1,5 @@
 {% set name = "vtkplotter" %}
-{% set version = "2020.2.1" %}
+{% set version = "2020.3.0" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
-  sha256: d9db1c6f1e267ef672cf7721cdc270057d8e22428b8aa04e1e0a2b119b1d28e9
+  sha256: d08058311007c8cbf91157d5eb6ee1811ad31bf48557fd3600936272ce358ebf
 
 build:
   number: 0
